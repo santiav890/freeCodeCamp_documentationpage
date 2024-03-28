@@ -1,0 +1,170 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <header>Technical Documentation</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#HTML_and_CSS">HTML and CSS</a>
+    <a class="nav-link" href="#JavaScript">JavaScript</a>
+    <a class="nav-link" href="#Responsive_Design">Responsive Design</a>
+    <a class="nav-link" href="#Conclusion">Conclusion</a>
+  </nav>
+  <main id="main-doc">
+    <section id="Introduction" class="main-section">
+      <header>Introduction</header>
+      <p>This is the introduction section.</p>
+      <p>HTML (HyperText Markup Language) is the standard markup language for documents designed to be displayed in a web browser.</p>
+      <p>CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML.</p>
+      <code>&lt;html&gt;</code>
+      <code>&lt;head&gt;</code>
+      <code>&lt;title&gt;</code>
+      <code>&lt;/title&gt;</code>
+      <code>&lt;/head&gt;</code>
+      <code>&lt;body&gt;</code>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </section>
+    <section id="HTML_and_CSS" class="main-section">
+      <header>HTML and CSS</header>
+      <p>This is the HTML and CSS section.</p>
+      <p>HTML provides the structure of a webpage, while CSS enhances the visual presentation of the content.</p>
+      <code>&lt;div&gt;</code>
+      <code>&lt;p&gt;</code>
+      <code>&lt;span&gt;</code>
+      <code>&lt;header&gt;</code>
+      <code>&lt;footer&gt;</code>
+      <code>&lt;style&gt;</code>
+      <code>&lt;link&gt;</code>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Flexbox</li>
+        <li>Grid</li>
+        <li>Responsive Design</li>
+      </ul>
+    </section>
+    <section id="JavaScript" class="main-section">
+      <header>JavaScript</header>
+      <p>This is the JavaScript section.</p>
+      <p>JavaScript is a high-level, interpreted programming language that is widely used for creating interactive websites.</p>
+      <code>let x = 5;</code>
+      <code>const pi = 3.14;</code>
+      <code>function greet() {</code>
+      <code>  return "Hello!";</code>
+      <code>}</code>
+      <ul>
+        <li>Variables</li>
+        <li>Functions</li>
+        <li>Objects</li>
+        <li>Arrays</li>
+        <li>DOM Manipulation</li>
+      </ul>
+    </section>
+    <section id="Responsive_Design" class="main-section">
+      <header>Responsive Design</header>
+      <p>This is the Responsive Design section.</p>
+      <p>Responsive web design ensures that web pages render well on various devices and window or screen sizes.</p>
+      <code>@media screen and (max-width: 600px) {</code>
+      <code>  body {</code>
+      <code>    background-color: lightblue;</code>
+      <code>  }</code>
+      <code>}</code>
+      <ul>
+        <li>Media Queries</li>
+        <li>Viewport Meta Tag</li>
+        <li>Flexible Grid Layouts</li>
+      </ul>
+    </section>
+    <section id="Conclusion" class="main-section">
+      <header>Conclusion</header>
+      <p>This is the conclusion section.</p>
+      <p>By understanding HTML, CSS, JavaScript, and responsive design principles, you can create dynamic and visually appealing websites.</p>
+      <ul>
+        <li>Continuous Learning</li>
+        <li>Practice</li>
+        <li>Experimentation</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  display: flex; /* Enable flexbox for layout */
+}
+
+nav#navbar {
+  width: 200px;
+  padding: 20px;
+  background-color: #ddd;
+  border-right: 1px solid #ccc;
+  position: fixed; /* Fix navbar to the left side */
+}
+
+nav header {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+.nav-link {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-link:hover {
+  background-color: #eee;
+}
+
+main#main-doc {
+  flex: 1; /* Take up remaining space */
+  padding: 20px;
+}
+
+section.main-section {
+  margin-bottom: 20px;
+}
+
+section header {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+code {
+  background-color: #f0f0f0;
+  padding: 5px;
+  font-family: monospace;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Responsive adjustments for smaller screens */
+  nav#navbar {
+    position: static; /* Unfix navbar on small screens */
+  }
+  main#main-doc {
+    padding: 10px;
+  }
+}
+
+
+** end of undefined **
+
